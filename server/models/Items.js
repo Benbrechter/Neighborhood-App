@@ -5,10 +5,6 @@ const itemsSchema = new Schema({
     type: String,
     required: true,
   },
-  itemsId: {
-    type: String,
-    required: true,
-  },
   image: {
     type: String,
   },

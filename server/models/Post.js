@@ -1,4 +1,5 @@
 const { Schema, model } = require('mongoose');
+const Comment = require('./comment')
 
 const postSchema = new Schema({
     category: {
@@ -20,9 +21,14 @@ const postSchema = new Schema({
         type: Date,
         default: Date.now
         //need to add date format in utils
-    }
+    },
+    comments:  {
+        type: Comment.ObjectId,
+        ref: 'Comment'
+      }
 });
 
 const Post = model('Post', postSchema);
+
 
 module.exports = Post
