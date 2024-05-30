@@ -20,22 +20,7 @@ const postSchema = new Schema({
         type: Date,
         default: Date.now
         //need to add date format in utils
-    },
-    comments: [
-        {
-            commentText: {
-                type: String,
-                required: true,
-                minlength: 1,
-                maxlength: 400,
-            },
-            createdAt: {
-                type: Date,
-                default: Date.now
-                //need to add date format in utils
-            },
-        },
-    ],
+    }
 });
 
 const Post = model('Post', postSchema);
