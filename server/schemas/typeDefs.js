@@ -4,7 +4,9 @@ type User {
     email: String!
     password: String!
     zipcode: String!
-    svaedUsers: [User]
+    svaedUsers: [User
+        
+    ]
 
 }
 
