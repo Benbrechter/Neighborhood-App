@@ -1,22 +1,29 @@
-Group Project 3 - HANDY HOOD Neighborhood app.
+# Group Project 3 - HANDY HOOD Neighborhood app.
 
-We are group 7! Our group consists of Benjamin Brechter, Oliva Skillings, Nicodemus Chinouya and Ava Deisler.
-
-Elevator Pitch:
-
-"Welcome to HandyHood, the ultimate platform designed to bring neighbors closer together. Whether you're searching for your missing dog, selling an item, planning a community event, or just want to stay updated on local happenings, HandyHood is your go-to resource.
+**Welcome to HandyHood**, the ultimate platform designed to bring neighbors closer together. Whether you're searching for your missing dog, selling an item, planning a community event, or just want to stay updated on local happenings, HandyHood is your go-to resource.
 
 Imagine a neighborhood where communication is seamless, support is just a tap away, and every member feels connected. With HandyHood, you can post announcements, organize events, and foster a stronger, more engaged community.
 
-Join HandyHood today and transform your neighborhood into a thriving, interactive community where everyone lends a helping hand!"
+Join HandyHood today and transform your neighborhood into a thriving, interactive community where everyone lends a helping hand!
 
-"WHAT'S NEW IN YOUR HOOD??"
+**WHAT'S NEW IN YOUR HOOD??**
 
-PREREQUESITES:
+## Table of Contents
+1. [Prerequesites](#PREREQUESITES)
+2. [Installation](#installation)
+3. [Usage](#installation)
+4. [Road Map](#roadmap)
+5. [Contact](#contact)
+6. [Screenshots](#screenshots)
+7. [Links](#links)
+8. [Acknowledgments](#ackowledgments)
+9. [Collaboration](#collaboration)
 
-INSTALLATION:
+## PREREQUESITES:
 
-USAGE:
+## INSTALLATION:
+
+## USAGE:
 
 As a user, you will create an account with login information, your zip code, your e-mail and a fun photo! Once your account is created, you can access your account page from the side navigation.
 
@@ -26,12 +33,18 @@ There will also be a free giveaway page where people can post items they no long
 
 All of these fun pages will be accessible from the main homepage which will have a master feed that will pull from the giveaways and the chores. It will also add in the general neighborhood chatter about thing such as lost dogs or wildlife sightings, etc! You will also be able to click on a mail box that will have a pop up that shows you the current month's events!
 
-ROADMAP:
+## ROADMAP:
 
-CONTACT:
+## CONTACT:
 
-SCREENSHOTS:
+## SCREENSHOTS:
 
-LINKS:
+## LINKS:
 
-ACKNOWLEDGMENTS:
+## ACKNOWLEDGMENTS:
+
+## COLLABORATION:
+- [Ava Deisler](https://github.com/avadeisler)
+- [Ben Brechter](https://github.com/Benbrechter)
+- [Nicodemus Chinouya](https://github.com/nicochinouya)
+- [Olivia Skillings](https://github.com/via-skillings)
