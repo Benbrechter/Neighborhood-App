@@ -1,0 +1,24 @@
+[
+    {
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "zipcode": "12345",
+      "friends": []
+    },
+    {
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "password": "password456",
+      "zipcode": "54321",
+      "friends": []
+    },
+    {
+      "username": "bob_jones",
+      "email": "bob@example.com",
+      "password": "password789",
+      "zipcode": "98765",
+      "friends": []
+    }
+  ]
+  

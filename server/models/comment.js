@@ -9,10 +9,9 @@ const commentSchema = new Schema({
     },
     createdAt: {
      type: Date,
-     default: Date.now
+     default: Date.now,
      //need to add date format in utils
-    }
-   
+    },
 });
 
 const Comment = model('Comment', commentSchema)
