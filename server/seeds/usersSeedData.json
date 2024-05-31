@@ -3,22 +3,19 @@
       "username": "john_doe",
       "email": "john@example.com",
       "password": "password123",
-      "zipcode": "12345",
-      "friends": []
+      "zipcode": "12345"
     },
     {
       "username": "jane_smith",
       "email": "jane@example.com",
       "password": "password456",
-      "zipcode": "54321",
-      "friends": []
+      "zipcode": "54321"
     },
     {
       "username": "bob_jones",
       "email": "bob@example.com",
       "password": "password789",
-      "zipcode": "98765",
-      "friends": []
+      "zipcode": "98765"
     }
   ]
   
