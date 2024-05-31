@@ -1,4 +1,4 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, ObjectId } = require('mongoose');
 const bcrypt = require('bcrypt');
 
 const userSchema = new Schema(
@@ -23,7 +23,10 @@ const userSchema = new Schema(
             required: true,
             match: [/^\d{5}(?:[-\s]\d{4})?$/, 'Must use a valid zipcode'],
         },
-        savedUsers: [userSchema],
+        friends:  {
+            type: ObjectId,
+            ref: 'User'
+          },
     },
     {
         toJSON: {
