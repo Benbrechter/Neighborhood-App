@@ -11,8 +11,8 @@ db.once('open', async () => {
    //seed users
    const users = await User.create(usersSeeds);
 
-   //seed posts
-   const posts = await Post.create(postSeeds);
+    
+  const posts = await Post.create(postSeeds);
 
    //seed items
    const items = await Item.create(itemsSeeds);
