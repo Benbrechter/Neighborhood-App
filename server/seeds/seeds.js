@@ -1,28 +1,24 @@
 const db = require('../config/connection');
 const { User, Post, Item, Comment } = require('../models');
-const profileSeeds = require('./profileSeeds.json');
 const postSeeds = require('./postsSeedData.json');
 const itemsSeeds = require('./itemsSeedData.json');
 const commentSeeds = require('./commentsSeedData.json');
 const usersSeeds = require('./usersSeedData.json');
-const cleanDB = require('./cleanDB');
 
 db.once('open', async () => {
   try {
-   //clean DB
-   await cleanDB();
 
    //seed users
-   const users = await User.create(usersSeedData);
+  //  const users = await User.create(usersSeeds);
 
    //seed posts
-   const posts = await Post.create(postSeeds);
+  //  const posts = await Post.create(postSeeds);
 
    //seed items
-   const items = await Items.create(itemsSeeds);
+   const items = await Item.create(itemsSeeds);
 
    //seed comments
-   const comments = await Comments.create(commentSeeds);
+   const comments = await Comment.create(commentSeeds);
 
     console.log('Data seeded succsessfully!');
     process.exit(0);
