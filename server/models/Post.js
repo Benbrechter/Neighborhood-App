@@ -1,4 +1,4 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, ObjectId } = require('mongoose');
 const Comment = require('./comment')
 
 const postSchema = new Schema({
@@ -23,7 +23,7 @@ const postSchema = new Schema({
         //need to add date format in utils
     },
     comments:  {
-        type: Comment.ObjectId,
+        type: ObjectId,
         ref: 'Comment'
       }
 });
