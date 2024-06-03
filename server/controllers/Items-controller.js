@@ -1,6 +1,16 @@
-const Item = require('../models/Item');
+const { Item } = require('../models');
 
 module.exports = {
+    //get Item
+    async getAllItems(res) {
+     try{
+        const items = await Item.find({});
+      res.status(200).json()
+     }catch{
+      console.error(error);
+      res.status(500).json({ message: 'Internal server error' });
+     }
+    },
     // create new item
     async createItem({ body }, res) {
         try {
