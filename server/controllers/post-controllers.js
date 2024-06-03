@@ -1,7 +1,8 @@
-const Post = require('../models/Post');
+const { Post }  = require('../models');
 
+module.exports = {
 // Create a new post
-exports.createPost = async (req, res) => {
+async createPost(req, res) {
     const { title, content, user } = req.body;
 
     try {
@@ -16,20 +17,20 @@ exports.createPost = async (req, res) => {
     } catch (err) {
         res.status(500).json({ error: 'Failed to create post' });
     }
-};
+},
 
 // Get all posts
-exports.getAllPosts = async (req, res) => {
+async getAllPosts(req, res) {
     try {
         const posts = await Post.find();
         res.status(200).json(posts);
     } catch (err) {
         res.status(500).json({ error: 'Failed to fetch posts' });
     }
-};
+},
 
 // Get a single post by ID
-exports.getPostById = async (req, res) => {
+async getPostById(req, res) {
     const { id } = req.params;
 
     try {
@@ -43,10 +44,10 @@ exports.getPostById = async (req, res) => {
     } catch (err) {
         res.status(500).json({ error: 'Failed to fetch post' });
     }
-};
+},
 
 // Update a post
-exports.updatePost = async (req, res) => {
+async updatePost(req, res) {
     const { id } = req.params;
     const { title, content } = req.body;
 
@@ -65,10 +66,10 @@ exports.updatePost = async (req, res) => {
     } catch (err) {
         res.status(500).json({ error: 'Failed to update post' });
     }
-};
+},
 
 // Delete a post
-exports.deletePost = async (req, res) => {
+async deletePost(req, res) {
     const { id } = req.params;
 
     try {
@@ -82,4 +83,6 @@ exports.deletePost = async (req, res) => {
     } catch (err) {
         res.status(500).json({ error: 'Failed to delete post' });
     }
-};
+}
+
+}
