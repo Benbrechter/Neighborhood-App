@@ -27,9 +27,8 @@ type Post {
     username: String!
     title: String!
     postText: String!
-    postText: String!
     image: String
-    createdAt: Date
+    createdAt: String
     comments: [Comment]
 }
 
@@ -40,9 +39,9 @@ type Auth {
 
   type Query {
     me: User 
-    getAllPosts: [Post] : [Post]
+    getAllPosts: [Post]
     getAllCommunity:[Post]
-    getAllItems: [Items]
+    getAllItems: [Item]
   }
 
   type Mutations {
