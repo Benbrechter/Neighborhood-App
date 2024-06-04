@@ -1,3 +1,0 @@
-// logo
-// navi links
-// menu
