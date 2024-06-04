@@ -138,27 +138,27 @@
                         <ul>
                             <li>
                                 <a href="#" title="Instagram">
-                                    <img src="assets/instagram.svg" alt='Instagram'>                       
+                                    <img src="client\src\assets\components\Footer\components\Footer\assets\instagram.svg" alt='Instagram'></img>                     
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="Linkedin">
-                                    <img src="assets/linkedin.svg" alt='Linkedin'>
+                                    <img src="client\src\assets\components\Footer\components\Footer\assets\linkedin.svg" alt='Linkedin'></img>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="Twitter">
-                                    <img src="assets/twitter.svg" alt='Twitter'>
+                                    <img src="client\src\assets\components\Footer\components\Footer\assets\twitter.svg" alt='Twitter'></img>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="Youtube">
-                                    <img src="assets/youtube.svg" alt='YouTube'>
+                                    <img src="client\src\assets\components\Footer\components\Footer\assets\youtube.svg" alt='YouTube'></img>
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="GitHub">
-                                    <img src="assets/github.svg" alt='GitHub'>
+                                    <img src="client\src\assets\components\Footer\components\Footer\assets\github.svg" alt='GitHub'></img>
                                 </a>
                             </li>
                         </ul>
