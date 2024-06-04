@@ -84,7 +84,7 @@ const resolvers = {
     deletePost: async (parent, context) => {
         if(context.user){
             const deletedPost = await Post.findByIdAndDelete(context.user._id)
-            const user = await User.findByIdAndUpdate(context.user._id, {$push: {posts: post._id}}, {new: true})
+             const user = await User.findByIdAndUpdate(context.user._id, {$push: {posts: post._id}}, {new: true})
             return deletedPost
         }
         throw AuthenticationError
