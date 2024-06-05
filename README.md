@@ -9,6 +9,7 @@ Join HandyHood today and transform your neighborhood into a thriving, interactiv
 **WHAT'S NEW IN YOUR HOOD??**
 
 ## Table of Contents
+
 1. [Prerequesites](#PREREQUESITES)
 2. [Installation](#installation)
 3. [Usage](#installation)
@@ -23,6 +24,8 @@ Join HandyHood today and transform your neighborhood into a thriving, interactiv
 
 ## INSTALLATION:
 
+run npm install
+
 ## USAGE:
 
 As a user, you will create an account with login information, your zip code, your e-mail and a fun photo! Once your account is created, you can access your account page from the side navigation.
@@ -32,6 +35,15 @@ You will also gain access to a community chore sign up page where our neighbors 
 There will also be a free giveaway page where people can post items they no longer have a use for and are giving away for free!
 
 All of these fun pages will be accessible from the main homepage which will have a master feed that will pull from the giveaways and the chores. It will also add in the general neighborhood chatter about thing such as lost dogs or wildlife sightings, etc! You will also be able to click on a mail box that will have a pop up that shows you the current month's events!
+
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## ROADMAP:
 
@@ -44,6 +56,7 @@ All of these fun pages will be accessible from the main homepage which will have
 ## ACKNOWLEDGMENTS:
 
 ## COLLABORATION:
+
 - [Ava Deisler](https://github.com/avadeisler)
 - [Ben Brechter](https://github.com/Benbrechter)
 - [Nicodemus Chinouya](https://github.com/nicochinouya)
