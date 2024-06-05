@@ -44,7 +44,7 @@ type Auth {
     getAllItems: [Item]
   }
 
-  type Mutations {
+  type Mutation {
     addUser(username: String!, email: String!, password: String!): Auth
     login(username: String!, email: String!, password: String!): Auth
     addPost(body: String!, title: String!): Post!
