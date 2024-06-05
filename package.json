@@ -18,5 +18,8 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
     "start": "node server/server.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.4.1"
   }
 }
