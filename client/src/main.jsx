@@ -29,6 +29,63 @@ const router = createBrowserRouter([
   },
 ]);
 
+const Navbar = () => {
+  return (
+    <nav
+    className = { moduleStyles.navbar }
+  >
+    <h3>
+      Hello
+    </h3>
+    <ul
+      className = { moduleStyles.nList }
+    >
+      <li
+        className = { moduleStyles.nlItem }
+      > 
+        <Link
+          href = "/"
+        >
+          <a
+            className = { moduleStyles.nliLink }
+          >
+            Home
+          </a>
+        </Link>
+      </li>
+      <li
+        className = { moduleStyles.nlItem }
+      >
+        <Link
+          href = "/"
+        >
+          <a
+            className = { moduleStyles.nliLink }
+          >
+            Home
+          </a>
+        </Link>
+      </li>
+      <li
+        className = { moduleStyles.nlItem }
+      >
+        <Link
+          href = "/"
+        >
+          <a
+            className = { moduleStyles.nliLink }
+          >
+            Home
+          </a>
+        </Link>
+      </li>
+    </ul>
+    <button>
+      Login
+    </button>
+  </nav>
+  );
+};
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 )
