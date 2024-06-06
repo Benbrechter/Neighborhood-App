@@ -1,10 +1,7 @@
 import { useQuery } from '@apollo/client';
 
-import Header from '../components/Header';
-import Main from '../components/Main';
-import Sidebar from '../components/Sidebar';
-import Footer from '../components/Footer';
 
+import Main from '../components/Main/index';
 // import query
 import {QUERY_POST} from '../utils/queries'
 

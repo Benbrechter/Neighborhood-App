@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
-    <header className="">
+    <nav className="navbar">
       <div className="">
         <Link className="" to="/">
           <h1 className="" style={{ fontSize: '3rem' }}>
-            Navigation
+            Handy Hood
           </h1>
         </Link>
         <p className="" style={{ fontSize: '1.75rem', fontWeight: '700' }}>
@@ -20,7 +20,7 @@ const Sidebar = () => {
             <input type="text" placeholder="Zip Code" title="Please enter your Zip Code"></input>
         </p>
       </div>
-    </header>
+    </nav>
   );
 };
 
