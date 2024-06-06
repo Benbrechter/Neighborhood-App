@@ -26,7 +26,7 @@ const Profile = () => {
                             Book a Service
                         </a>
                         <a href="#learn-more" className="secondary">
-                            message
+                            Message
                         </a>
                     </div>
                 </div>
