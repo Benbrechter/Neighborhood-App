@@ -21,3 +21,5 @@ function Main({postData}){
 } 
 
 export default Main 
+
+//
