@@ -66,6 +66,11 @@ h1 {
 .container-box{
   margin-right: 25px;
 }
+.home-post{
+  width: 600px;
+  height: max-content;
+  border: 2px solid black;
+}
 
 
 
