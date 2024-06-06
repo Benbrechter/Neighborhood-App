@@ -40,12 +40,12 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Sidebar/>
-      <div>
+      <main>
         <div>
           <Outlet />
         </div>
         {/* <Footer /> */}
-      </div>
+      </main>
     </ApolloProvider>
   );
 }

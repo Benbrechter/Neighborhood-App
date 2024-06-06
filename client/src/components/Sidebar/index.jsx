@@ -12,9 +12,9 @@ const Sidebar = () => {
           </h1>
         </Link>
         <p className="" style={{ fontSize: '1.75rem', fontWeight: '700' }}>
-          <button>Home</button>
-          <button>Profile</button>
-          <button>Yardsale</button>
+          <a href= '/' className='navUL'>Home</a>
+          <a href = '/profile' className='navUL'>Profile</a>
+          <a href="/login" className='navUL'> Signup/Login</a>
         </p>
         <p className="" style={{ }}>
             <input type="text" placeholder="Zip Code" title="Please enter your Zip Code"></input>

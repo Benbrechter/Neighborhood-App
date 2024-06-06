@@ -40,10 +40,10 @@ export default function Login(props){
       };
       return (
         <main className="">
-          <div className="">
+          <div className="form">
             <div className="">
               <h4 className="">Login</h4>
-              <div className="">
+              <div className="login-box">
                 {data ? (
                   <p>
                     Success! You may now head{' '}
