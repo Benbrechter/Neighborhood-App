@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const Main = ({postData}) => {
+function Main({postData}){
     return(
         <div>
             {postData.map(post => (
