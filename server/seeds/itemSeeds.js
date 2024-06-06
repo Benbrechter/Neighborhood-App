@@ -31,6 +31,6 @@ const itemData = [
     }
 ];
 
-const itemPosts = () => Post.bulkCreate(itemData);
+const seedItem = () => Item.create(itemData);
 
-module.exports = itemPosts;
+module.exports = seedItem;
