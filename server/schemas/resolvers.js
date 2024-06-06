@@ -10,6 +10,10 @@ const resolvers = {
         }
         throw AuthenticationError
     },
+    getAllUser: async () => {
+      const user = await User.find()
+      return user
+    },
     getAllPosts: async () => {
         const posts = await Post.find()
 
