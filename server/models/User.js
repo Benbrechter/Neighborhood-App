@@ -20,7 +20,6 @@ const userSchema = new Schema(
         },
         zipcode: {
             type: String,
-            required: true,
             match: [/^\d{5}(?:[-\s]\d{4})?$/, 'Must use a valid zipcode'],
         },
         friends: [ { 

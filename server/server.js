@@ -6,7 +6,6 @@ const { authMiddleware } = require('./utils/auth');
 const db = require('./config/connection');
 const { typeDefs, resolvers } = require('./schemas');
 
-const seedComments = require('./seeds/commentSeeds');
 const seedItems = require('./seeds/itemSeeds');
 const seedPosts = require('./seeds/postSeeds');
 const seedUsers = require('./seeds/userSeeds');

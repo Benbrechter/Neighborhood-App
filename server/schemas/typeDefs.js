@@ -3,7 +3,8 @@ type User {
     _id: ID
     username: String!
     email: String!
-    zipcode: String!
+    zipcode: String
+    password: String
     friends: [User]
     posts: [Post]
 
@@ -39,6 +40,7 @@ type Auth {
 
   type Query {
     me: User 
+    getAllUser: [User]
     getAllPosts: [Post]
     getAllCommunity:[Post]
     getAllItems: [Item]

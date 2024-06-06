@@ -46,7 +46,9 @@ h1 {
 }
 .login-box{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin-left: 65px;
 }
 .form{
   margin-top: 200px;

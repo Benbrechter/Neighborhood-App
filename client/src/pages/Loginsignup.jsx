@@ -39,11 +39,11 @@ export default function Login(props){
         });
       };
       return (
-        <main className="">
-          <div className="form">
-            <div className="">
-              <h4 className="">Login</h4>
+        <div className="">
+          <div className="container">
+            <div className="card">
               <div className="login-box">
+              <h4 className="">Login</h4>
                 {data ? (
                   <p>
                     Success! You may now head{' '}
@@ -93,7 +93,7 @@ export default function Login(props){
               </div>
             </div>
           </div>
-        </main>
+        </div>
       );
 
 

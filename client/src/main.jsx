@@ -4,7 +4,7 @@ import './index.css'
 
 import App from './App.jsx'
 import Home from './pages/Home'
-// import Profile from './pages/Profile'
+import Profile from './pages/Profile'
 import Login from './pages/Loginsignup'
 
 const router = createBrowserRouter([
@@ -21,10 +21,10 @@ const router = createBrowserRouter([
         path: '/login',
         element: <Login/>
       },
-      // {
-      //   path: '/profile',
-      //   element: <Profile />,
-      // },
+      {
+        path: '/profile',
+        element: <Profile />,
+      },
     ],
   },
 ]);
