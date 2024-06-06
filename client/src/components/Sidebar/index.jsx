@@ -15,7 +15,6 @@ const Sidebar = () => {
           <button>Home</button>
           <button>Profile</button>
           <button>Yardsale</button>
-          <button>Chores</button>
         </p>
         <p className="" style={{ }}>
             <input type="text" placeholder="Zip Code" title="Please enter your Zip Code"></input>
@@ -25,4 +24,4 @@ const Sidebar = () => {
   );
 };
 
-export default Header;
+export default Sidebar;

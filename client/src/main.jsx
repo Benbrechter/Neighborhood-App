@@ -4,9 +4,9 @@ import './index.css'
 
 import App from './App.jsx'
 import Home from './pages/Home'
-import Profile from './pages/Profile'
-import Login from './pages/Loginsignup.jsx'
-import Giveaway from './pages/Giveaway.jsx'
+// import Profile from './pages/Profile'
+import Login from './pages/Loginsignup'
+// import Giveaway from './pages/Giveaway.jsx'
 
 const router = createBrowserRouter([
   {
@@ -22,14 +22,14 @@ const router = createBrowserRouter([
         path: '/login',
         element: <Login/>
       },
-      {
-        path: './items',
-        element: <Giveaway/>
-      },
-      {
-        path: '/profiles/:profileId',
-        element: <Profile />,
-      },
+      // {
+      //   path: './items',
+      //   element: <Giveaway/>
+      // },
+      // {
+      //   path: '/profiles/:profileId',
+      //   element: <Profile />,
+      // },
     ],
   },
 ]);
