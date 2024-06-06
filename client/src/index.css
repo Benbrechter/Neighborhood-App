@@ -31,15 +31,22 @@ h1 {
   line-height: 1.1;
 }
 
+/* Nav Bar */
 .navbar {
- background-color: #242424;
- width: 100%;
- display:flex;
- justify-content: center;
+  color: #000000;
+  height: 60px;
+  display: flex;
+  /* padding: 0px 7.5%; */
+  background: #303030;
+  align-items: right;
+  justify-content: space-between;
 }
+
 .navUL{
   margin: 10px;
+  align-items: right;
 }
+
 .form-input{
   display: flex;
   margin: 10px
@@ -58,6 +65,8 @@ h1 {
 }
 .homeHeader{
   font-size: 45px;
+  padding: 20px;
+  margin: 40px;
 }
 .signup-login{
   display: flex;

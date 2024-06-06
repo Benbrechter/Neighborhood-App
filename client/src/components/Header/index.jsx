@@ -1,11 +1,11 @@
 // import { Link } from 'react-router-dom';
-import houses from "./houses.png";
+// import houses from "./houses.png";
 
 
 const Header = () => {
   return (
     <header className="">
-       <img src={houses} alt="houses" />
+       {/* <img src={houses} alt="houses" /> */}
         <div className="">
         {/* <Link className="" to="/">
         </Link> */}
