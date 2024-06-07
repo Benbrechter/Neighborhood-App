@@ -6,7 +6,7 @@ function Main({ postData }) {
         <div className='post-container'>
             {postData.map(post => (
                 <div className = 'home-post'>
-                    <div clasName = 'post-content'>
+                    <div className = 'post-content'>
                         <h2>{post.title}</h2>
                         <p>{post.postText}</p> 
                     </div>
