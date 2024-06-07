@@ -32,7 +32,8 @@ h1 {
 }
 
 .navbar {
-  background-color: #ad2929;
+  background-image: url(https://i.postimg.cc/Cx78jd9y/houses.png);
+  background-size: 510px 200px;
   padding: 1rem;
 }
 
@@ -97,6 +98,7 @@ h1 {
   font-size: 45px;
   padding: 20px;
   margin: 40px;
+  
 }
 .home-post{
   width: 600px;
