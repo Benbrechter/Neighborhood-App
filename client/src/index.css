@@ -34,7 +34,7 @@ h1 {
 .navbar {
   background-image: url(https://i.postimg.cc/Cx78jd9y/houses.png);
   background-size: 510px 200px;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .navbar-container {
@@ -53,8 +53,10 @@ h1 {
 
 .nav-item {
   margin: 0 1rem;
+  position: relative;
+  top: 130px;
   text-decoration: none;
-  color: inherit;
+  color: green;
 }
 
 .nav-item:hover {
@@ -64,6 +66,7 @@ h1 {
 .zip-code-input {
   padding: 0.5rem;
   font-size: 1rem;
+  
 }
 
 
