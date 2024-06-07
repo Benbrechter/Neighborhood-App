@@ -1,5 +1,5 @@
 
-function Footer()  {
+export default function Footer()  {
     return (
         <footer>
             <div className="footer-line"></div>
@@ -126,4 +126,3 @@ function Footer()  {
     );
 }
 
-export default Footer;
