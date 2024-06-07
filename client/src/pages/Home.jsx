@@ -1,5 +1,5 @@
 import { useQuery } from '@apollo/client';
-
+import Footer from '../components/Footer/index';
 
 import Main from '../components/Main/index';
 // import query
@@ -13,11 +13,11 @@ function Home(){
     if(loading)return <div> Loading </div>
     return (
         <div>
-            <h1 className= 'homeHeader'> What's new in your Hood?</h1>
+            <h1 className= 'homeHeader'> What's new in your Hood? testing</h1>
         <Main postData={postData}/>
+        <Footer/>
         </div>
     )
 }
 
-export default Home 
-
+export default Home
