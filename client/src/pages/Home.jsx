@@ -6,9 +6,10 @@ import Main from '../components/Main/index';
 import {QUERY_POST} from '../utils/queries'
 
 function Home(){
-    const { loading, data } = useQuery(QUERY_POST)
-    const postData = data?.getAllPosts || []
-    console.log(postData)
+    const { loading, data } = useQuery(QUERY_POST);
+    console.log(QUERY_POST);
+    const postData = data?.getAllPosts || [];
+    console.log(postData);
     if(loading)return <div> Loading </div>
     return (
         <div>
