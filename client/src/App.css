@@ -305,7 +305,7 @@ footer {
 
 
 :root {
-  --background: #D8E3FA;
+  --background: #c6fcd0;
   --gray: #EAEAEC;
   --primary: #29283F;
   --primary-violet: #7370F4;
@@ -313,7 +313,6 @@ footer {
 
 body {
   background-color: var(--background);
-  /* display: grid; */
   place-items: center;
   height: 100vh;
   font-size: 16px;

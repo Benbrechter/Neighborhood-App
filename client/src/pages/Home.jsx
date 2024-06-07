@@ -19,5 +19,4 @@ import {QUERY_POST} from '../utils/queries'
     )
 }
 
-export default Home 
-
+export default Home

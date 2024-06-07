@@ -15,6 +15,7 @@ db.once('open', async () => {
     await seedUser();
     await seedPost();
     await seedItem();
+    console.log('AAAAAAAAAAAAAAAAAAAAAAAAA');
   } catch (err) {
     console.error(err);
   }
