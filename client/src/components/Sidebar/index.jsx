@@ -5,20 +5,25 @@ import { Link } from 'react-router-dom';
 const Sidebar = () => {
   return (
     <nav className="navbar">
-      <div className="">
-        <Link className="" to="/">
+      <div className="navbar-container">
+        <Link className="navbar-logo" to="/">
           <h1 className="" style={{ fontSize: '3rem' }}>
             Handy Hood
           </h1>
         </Link>
-        <p className="" style={{ fontSize: '1.75rem', fontWeight: '700' }}>
-          <a href= '/' className='navUL'>Home</a>
-          <a href = '/profile' className='navUL'>Profile</a>
-          <a href="/login" className='navUL'> Signup/Login</a>
-        </p>
-        <p className="" style={{ }}>
-            <input type="text" placeholder="Zip Code" title="Please enter your Zip Code"></input>
-        </p>
+        <div className="navbar-links" style={{ fontSize: '1.75rem', fontWeight: '700' }}>
+          <Link to="/" className="nav-item">Home</Link>
+          <Link to="/profile" className="nav-item">Profile</Link>
+          <Link to="/login" className="nav-item">Signup/Login</Link>
+        </div>
+        <div className="navbar-search">
+          <input 
+            type="text" 
+            placeholder="Zip Code" 
+            title="Please enter your Zip Code" 
+            className="zip-code-input"
+          />
+        </div>
       </div>
     </nav>
   );

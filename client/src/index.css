@@ -31,12 +31,46 @@ h1 {
   line-height: 1.1;
 }
 
-/* Nav Bar */
 .navbar {
+  background-color: #ad2929;
+  padding: 1rem;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-logo {
+  margin-bottom: 1rem;
+}
+
+.navbar-links {
+  margin-bottom: 1rem;
+}
+
+.nav-item {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.zip-code-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+
+/* Nav Bar */
+/* .navbar {
   color: #000000;
   height: 60px;
   display: flex;
-  /* padding: 0px 7.5%; */
   background: #303030;
   align-items: right;
   justify-content: space-between;
@@ -87,7 +121,7 @@ h1 {
 }
 .post-content{
   border: 2px solid black;
-}
+} */
 
 
 
