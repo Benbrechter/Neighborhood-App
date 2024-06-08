@@ -7,14 +7,15 @@ function Main({ postData }) {
             {postData.map(post => (
                 <div className = 'home-post'>
                     <div className = 'post-content'>
-                        <h2>{post.title}</h2>
-                        <p>{post.postText}</p> 
+                        <h2 className= 'post-title'>{post.title}</h2>
+                        <p clasName = 'post-paragrapgh'>{post.postText}</p> 
                     </div>
+                    <h3>Comments</h3>
                     <div className = 'comment-content'>
                         {post.comments.map(comment => (
                             <>
-                                <p>{comment.commentText}</p>
-                                <p>{comment.createdAt}</p>
+                                <p className='comments'>{comment.commentText}</p>
+                               
                             </>
                         ))}
                     </div>
@@ -28,10 +29,3 @@ function Main({ postData }) {
 
 export default Main 
 
-{/* <div className = 'home-post'>
-<h2>Title</h2>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis at ut dolore voluptatibus quod similique impedit! Et temporibus odio repellendus minima quis totam voluptatem, tenetur odit accusantium ratione laudantium aperiam?</p>
-</div>
-<div className='post-comments'>
-
-</div> */}

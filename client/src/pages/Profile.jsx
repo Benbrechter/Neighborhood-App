@@ -4,9 +4,6 @@ const Profile = () => {
     return (
         <div className="container">       
             <article className="card">
-                <div className='background'>
-                    <img src="assets/profile.jpeg" alt="profile" />
-                </div>
                 <div className='content'>
                     <h2>Profile name &#127468;&#127463;</h2>
                     <p>

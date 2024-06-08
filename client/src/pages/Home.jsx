@@ -1,5 +1,4 @@
 import { useQuery } from '@apollo/client';
-import Footer from '../components/Footer/index';
 
 import Main from '../components/Main/index';
 
@@ -14,7 +13,6 @@ import {QUERY_POST} from '../utils/queries'
         <div>
             <h1 className='homeHeader'> {"What's new in your Hood?"}</h1>
         <Main postData={postData}/>
-        <Footer/>
         </div>
     )
 }
