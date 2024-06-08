@@ -81,20 +81,24 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-left: 30px;
 }
 .form{
-  margin-top: 200px;
-  border: 5px solid black;
-  width: 300px;
-  height: 200px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
 }
 .signup-login{
   display: flex;
-  margin-top: 100px
+  margin-top: 100px;
+  justify-content: center;
 }
 .container-box{
   margin-right: 25px;
+}
+.login-btn{
+
 }
 /* end of login/signup css */
 .homeHeader{
@@ -116,9 +120,30 @@ h1 {
 }
 .post-content{
   border: 2px solid black;
-} */
-
-
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+} 
+.post-title{
+  text-decoration-line: underline;
+  margin: 10px
+}
+.comment-content{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: max-content;
+  height: max-content;
+}
+.comments{
+  padding: 5px;
+}
+/* profile */
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
 
 @media (prefers-color-scheme: light) {
   :root {

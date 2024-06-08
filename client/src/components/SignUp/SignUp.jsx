@@ -40,7 +40,7 @@ export default function Signup() {
 
   return (
     <main className="">
-      <div className="container">
+      <div className="">
         <div className="card">
           <div className="login-box">
           <h4 className="">Sign Up</h4>
@@ -50,7 +50,7 @@ export default function Signup() {
                 <Link to="/">back to the homepage.</Link>
               </p>
             ) : (
-              <form onSubmit={handleFormSubmit}>
+              <form className= 'form' onSubmit={handleFormSubmit}>
                 <input
                   className="form-input"
                   placeholder="Your username"

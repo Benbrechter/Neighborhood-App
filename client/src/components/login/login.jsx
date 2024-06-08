@@ -40,17 +40,17 @@ export default function Login(props){
       };
       return (
         <div className="container-box">
-          <div className="container">
+          <div className="">
             <div className="card">
               <div className="login-box">
-              <h4 className="">Login</h4>
+                <h4 className="">Login</h4>
                 {data ? (
                   <p>
                     Success! You may now head{' '}
                     <Link to="/">back to the homepage.</Link>
                   </p>
                 ) : (
-                  <form onSubmit={handleFormSubmit}>
+                  <form className= 'form' onSubmit={handleFormSubmit}>
                     <input
                       className="form-input"
                       placeholder="Your username"
@@ -76,7 +76,7 @@ export default function Login(props){
                       onChange={handleChange}
                     />
                     <button
-                      className=""
+                      className="login-btn"
                       style={{ cursor: 'pointer' }}
                       type="submit"
                     >
