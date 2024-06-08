@@ -22,14 +22,14 @@ const userSchema = new Schema(
             type: String,
             match: [/^\d{5}(?:[-\s]\d{4})?$/, 'Must use a valid zipcode'],
         },
-        friends: [ { 
+        friends: [{ 
             type: Schema.Types.ObjectId,
             ref: 'User'
-          }],
-          posts: [ { 
+        }],
+        posts: [{ 
             type: Schema.Types.ObjectId,
             ref: 'Post'
-          }],
+        }],
     },
     {
         toJSON: {
@@ -43,7 +43,6 @@ userSchema.pre('save', async function (next) {
         const saltRounds = 10;
         this.password = await bcrypt.hash(this.password, saltRounds);
     }
-
     next();
 });
 

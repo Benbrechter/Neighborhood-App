@@ -145,6 +145,71 @@ h1 {
   margin-top: 200px;
 }
 
+/* add post */
+/* Add styles to your existing CSS file */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px; /* Same as navbar height to push content below */
+}
+
+.add-post-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.add-post-button:hover {
+    background-color: #45a049;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-post {
+    width: 600px;
+    height: max-content;
+    margin-bottom: 30px;
+}
+
+.post-content {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-title {
+    text-decoration-line: underline;
+    margin: 10px;
+}
+
+.comment-content {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: max-content;
+    height: max-content;
+}
+
+.comments {
+    padding: 5px;
+}
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

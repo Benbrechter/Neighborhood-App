@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Home from './pages/Home'
 import Profile from './pages/Profile'
 import Login from './pages/Loginsignup'
+import AddPost from './pages/AddPost.jsx'
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: '/profile',
         element: <Profile />,
+      },
+      {
+        path: '/add-post',
+        element: <AddPost />, // Add route for AddPost
       },
     ],
   },
