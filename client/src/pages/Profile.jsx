@@ -1,5 +1,8 @@
 import React from 'react';
 
+//we need to add props and import user data when they are loggeed in 
+
+
 const Profile = () => {
     return (
         <div className="container">       
