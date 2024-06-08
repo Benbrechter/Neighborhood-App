@@ -23,3 +23,54 @@ mutation addUser($username: String!, $email: String!, $password: String!) {
   }
 }
 `;
+
+export const ADD_POST = gql`
+mutation Mutation($body: String!, $title: String!) {
+  addPost(body: $body, title: $title) {
+    _id
+    category
+    username
+    title
+    postText
+    image
+    createdAt
+    comments {
+      _id
+      commentText
+      createdAt
+    }
+  }
+}
+`
+export const DELETE_POST = gql`
+mutation DeletePost($id: ID!) {
+  deletePost(_id: $id) {
+    _id
+    username
+    email
+    zipcode
+    password
+    friends {
+      _id
+      username
+      email
+      zipcode
+      password
+    }
+    posts {
+      _id
+      category
+      username
+      title
+      postText
+      image
+      createdAt
+      comments {
+        _id
+        commentText
+        createdAt
+      }
+    }
+  }
+}
+`
