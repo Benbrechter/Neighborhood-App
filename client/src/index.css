@@ -114,11 +114,6 @@ input, select{
      font-family: "Berkshire Swash", serif;
     }
 
-div.card{
-  background-color: #daf9ba;
-  box-shadow: 10px 10px 10px #646cff;
-}
-
 h4 {
   font-size: xx-large;
   color:#646cff;
@@ -148,6 +143,17 @@ button, input[type="button"], input[type="submit"]{
   font-family: "Berkshire Swash", serif;
   text-transform: uppercase;
 }
+
+
+div.error {
+  color: #f1721d;
+  max-width: 300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(.5, 1fr);
+  padding-top: 20px;
+}
+
 /* end of login/signup css */
 .homeHeader{
   font-size: 45px;
@@ -258,13 +264,6 @@ button, input[type="button"], input[type="submit"]{
 
 .comments {
     padding: 5px;
-}
-
-article.card {
-  background-color: #daf9ba;
-  box-shadow: 10px 10px 10px #646cff;
-  color:#45a049;
-  place-content: center;
 }
 
 #profile {

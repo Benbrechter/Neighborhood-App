@@ -279,10 +279,6 @@ html {
   }
 }
 
-.card {
-  padding: 2em;
-}
-
 .read-the-docs {
   color: #888;
 }
@@ -311,16 +307,18 @@ body {
   padding: 0;
 }
 
-.card {
-  display: flex;
-  flex-wrap: wrap;
+ .card {
+  /* display: flex;
+  flex-wrap: wrap; */
   border-radius: 1.5rem;
   background-color: white;
   cursor: pointer;
-  overflow: hidden;
-  transition: all 0.3s;
-  max-width: clamp(320px, 70vw, 740px);
-  min-width: 20rem;
-  min-height: 17.5rem;
-}
+  overflow: auto;
+  background-color: #daf9ba;
+  box-shadow: 10px 10px 10px #646cff;
+  resize: none;
+  color:#45a049;
+  padding: 3em;
+  height: 400px;
+ }
 

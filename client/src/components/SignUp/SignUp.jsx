@@ -86,7 +86,7 @@ export default function Signup() {
             )}
 
             {error && (
-              <div className="">
+              <div className="error">
                 {error.message}
               </div>
             )}
