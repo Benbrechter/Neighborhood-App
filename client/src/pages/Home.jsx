@@ -2,6 +2,8 @@ import { useQuery } from '@apollo/client';
 
 import Main from '../components/Main/index';
 
+import footer from '../components/Footer';
+
 import {QUERY_POST} from '../utils/queries'
 
 //ideally add a options where you can add a comment and add a post

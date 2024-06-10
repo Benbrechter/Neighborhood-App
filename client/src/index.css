@@ -82,9 +82,22 @@ input, select, textarea{
 }
 
 input[type="text"], textarea {
-  background-color : #ffffff; 
+  -moz-border-radius: 20px;
+   border-radius: 20px;
+   border: 2px solid #646cff;
+   background-color: #ffffff;
+   width: 250px;
+   height: 30px;
+   color: #45a049;
+   align-items: center;
+   font-size: large;
+   font-family: "Berkshire Swash", serif;
 }
 
+
+form.form {
+  gap: 20px;
+}
 /* Nav Bar */
 
 input.form-input{
@@ -296,6 +309,10 @@ a.secondary {
  text-align: center;
  padding: 20px 20px 20px 20px;
  gap: 30px;
+}
+
+footer {
+  color: #646cff;
 }
 
 @media (prefers-color-scheme: light) {

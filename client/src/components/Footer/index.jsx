@@ -1,6 +1,9 @@
-export default function Footer()  {
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Footer = () => {
     return (
-        <footer>
+        <footer className="footer">
             <div className="footer-line"></div>
             <div className="footer-wrapper">
                 <section className="footer-top">
@@ -36,4 +39,6 @@ export default function Footer()  {
             </div>
         </footer>
     );
-}
+};
+
+export default Footer;
