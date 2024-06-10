@@ -26,7 +26,7 @@ mutation addUser($username: String!, $email: String!, $password: String!) {
 
 export const ADD_POST = gql`
 mutation Mutation($body: String!, $title: String!) {
-  addPost(body: $body, title: $title) {
+  addPost(postText: $postText, title: $title) {
     _id
     category
     username
