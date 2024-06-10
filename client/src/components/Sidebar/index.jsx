@@ -7,7 +7,7 @@ const Sidebar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link className="navbar-logo" to="/">
-          <h1 className="" style={{ fontSize: '3rem' }}>
+          <h1 className="" style={{ fontSize: '4rem' }}>
             Handy Hood
           </h1>
         </Link>
@@ -16,7 +16,7 @@ const Sidebar = () => {
           <Link to="/profile" className="nav-item">Profile</Link>
           <Link to="/login" className="nav-item">Signup/Login</Link>
         </div>
-        <div className="navbar-search">
+        <div className="navbar-search" >
           <input 
             type="text" 
             placeholder="Zip Code" 
