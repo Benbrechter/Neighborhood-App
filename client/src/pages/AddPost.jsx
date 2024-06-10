@@ -20,7 +20,7 @@ export default function AddPost() {
         event.preventDefault();
         try {
             const { data } = await addPost({
-                variables: { ...formState },
+                variables: { postText: formState.postText, title: formState.title  },
             });
             console.log(data);
             navigate('/');
