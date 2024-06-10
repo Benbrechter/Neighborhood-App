@@ -1,4 +1,3 @@
-
 export default function Footer()  {
     return (
         <footer>
@@ -30,99 +29,11 @@ export default function Footer()  {
                         </svg>
                         <h2 className="hide">HandyHood</h2>
                     </section>
-                    <section>
-                        <h3>Resources</h3>
-                        <ul>
-                            <li>
-                                <a href="#" title="Support">Support</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Sitemap">Sitemap</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Newsletter">Newsletter</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Help Centre">Help Centre</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Investor">Investor</a>
-                            </li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Company</h3>
-                        <ul>
-                            <li>
-                                <a href="#" title="About Us">About Us</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Blog">Blog</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Careers">Careers</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Press">Press</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Contact">Contact</a>
-                            </li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Legal</h3>
-                        <ul>
-                            <li>
-                                <a href="#" title="Terms and services">
-                                    Terms
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" title="Privacy Policy">
-                                    Privacy
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" title="Cookies">
-                                    Cookies
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" title="Licenses">
-                                    Licenses
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" title="Cookies">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </section>
                 </div>
                 <div className="footer-bottom">
                     <small>© HandyHood Ltd. <span id="year">{new Date().getFullYear()}</span>, All rights reserved</small>
-                    <span className='social-links'>
-                        <a href="#" title="Instagram">
-                            <img src="assets/instagram.svg" alt='Instagram' />                       
-                        </a>
-                        <a href="#" title="Linkedin">
-                            <img src="assets/linkedin.svg" alt='Linkedin' />
-                        </a>
-                        <a href="#" title="Twitter">
-                            <img src="assets/twitter.svg" alt='Twitter' />
-                        </a>
-                        <a href="#" title="Youtube">
-                            <img src="assets/youtube.svg" alt='YouTube' />
-                        </a>
-                        <a href="#" title="GitHub">
-                            <img src="assets/github.svg" alt='GitHub' />
-                        </a>
-                    </span>
                 </div>
             </div>
         </footer>
     );
 }
-
