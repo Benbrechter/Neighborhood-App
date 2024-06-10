@@ -8,7 +8,7 @@ const Profile = () => {
         <div className="container">       
             <article className="card">
                 <div className='content'>
-                    <h2>Profile name &#127468;&#127463;</h2>
+                    <h2 id ="profile">Profile name &#127468;&#127463;</h2>
                     <p>
                         Brief intro of person here  
                         <a href="email ad" title="Google">DM</a>
