@@ -12,13 +12,6 @@ type User {
 
 }
 
-type Post {
-    id: ID!
-    title: String!
-    postText: String!
-    createdAt: String!
-}
-
 type Comment {
    _id: ID 
    commentText: String!
@@ -33,8 +26,8 @@ type Item {
 
 type Post {
     _id: ID
-    category: String!
-    username: String!
+    category: String
+    username: String
     title: String!
     postText: String!
     image: String
